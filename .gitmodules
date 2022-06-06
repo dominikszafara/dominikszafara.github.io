@@ -1,3 +1,6 @@
 [submodule "qr_code"]
 	path = qr_code
 	url = https://github.com/dominikszafara/qr_code.git
+[submodule "stats_previev"]
+	path = stats_previev
+	url = https://github.com/dominikszafara/stats_previev.git
