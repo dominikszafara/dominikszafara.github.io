@@ -1,5 +1,6 @@
 .main_navibar{
-    background: lightblue;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(169, 169, 169));
+    /*background: lightblue;*/
     height: 15vh;
     width: 80vw;
     padding: 0.5em;
@@ -10,12 +11,16 @@
     justify-content: center;
 }
 .navibutton{
-    background: darkgray;
-    padding: 5px;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(169, 169, 169));
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+    color: azure;
+    padding: 5px; 
     flex: 0 0 150px;
     align-self: center;
 }
-
 .navi1{
     order: 1;
     margin: 0.5em;
