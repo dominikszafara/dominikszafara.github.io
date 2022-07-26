@@ -1,0 +1,11 @@
+.main_navibar{
+    background: lightblue;
+    height: 15vh;
+    width: 90vw;
+    padding: 0.5em;
+    margin: 25vh auto 0;
+}
+
+.main_container{
+    background: pink;
+}

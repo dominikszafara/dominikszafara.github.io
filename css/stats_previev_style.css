@@ -1,6 +1,7 @@
 .att { font-size: 11px; text-align: center; }
 .att a { color: hsl(228, 45%, 44%); }
 
+
 .container{
 
         /* flex
@@ -11,9 +12,7 @@
         justify-content: center
         padding: 10%;
         border-radius:20px; 
-        */
-
-        /*grid*/
+        <--grid-->
     background-color: hsl(233, 47%, 7%);
     max-width: 1440px; 
     margin: 0 auto;
@@ -24,8 +23,18 @@
     'mtop mtop'
     'textbox imagebox'
     'mbottom mbottom'
-       
+    */
+
+    /* make good flex :) */
+    background-color: hsl(233, 47%, 7%);
+    border-radius: 15px;
+    max-width: 1440px; 
+    margin: 0 auto;
+    display: flex;
+    
+
 }
+/*
 .mtop{
     grid-column-start: 1;
     grid-column-end: 3;  
@@ -34,6 +43,7 @@
     grid-column-start: 1;
     grid-column-end: 3;  
 }
+*/
 .textbox{
     /*order: 2; */
     border-bottom-left-radius: 15px;
@@ -81,6 +91,7 @@ h2{
 }
 .statstextbox{
     order: 3;
+    /* flex in da flex ---> matriflex :P */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -89,18 +100,18 @@ h2{
     padding: 20px;
 }
 .box1{
-    width: 33%;
+    width: 30%;
     text-align: left;
     order: 1;
 }
 .box2{
-    width: 33%;
+    width: 30%;
     text-align: left;
     order: 2;
 }
 
 .box3{
-    width: 33%;
+    width: 30%;
     text-align: left;
     order: 3;
         }
