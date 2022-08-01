@@ -27,11 +27,14 @@
 
     /* make good flex :) */
     background-color: hsl(233, 47%, 7%);
+    overflow: hidden;
     border-radius: 15px;
-    max-width: 1440px; 
-    margin: 0 auto;
+    max-width: 1440px;
+    margin: 2vh 10% 5vh;
+    /*margin: 0 auto;*/
     display: flex;
-    
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
 /*
@@ -46,11 +49,11 @@
 */
 .textbox{
     /*order: 2; */
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px ;
+    /*border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px ;*/
     justify-self: right;
     background-color: hsl(244, 38%, 16%);
-    max-width: 80%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,15 +61,15 @@
 }
 .imagebox{
     /*order: 1;*/
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px ;
+    /*border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px ;*/
     justify-self: left;
     background: hsl(277, 64%, 61%);;
-    max-width: 80%;
+    width: 50%;
 }
 img{
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px ;
+   /* border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px ;*/
    width: 100%;
    height: 100%;
    opacity: 50%;
@@ -96,23 +99,29 @@ h2{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     color: hsla(0, 0%, 100%, 0.6);
     padding: 20px;
+    
+}
+.box{
+    padding: 1%;
+    width: 30%;
+    text-align: center;
+
 }
 .box1{
-    width: 30%;
-    text-align: left;
+    
     order: 1;
+    
 }
 .box2{
-    width: 30%;
-    text-align: left;
+    
     order: 2;
 }
 
 .box3{
-    width: 30%;
-    text-align: left;
+    
     order: 3;
         }
         
