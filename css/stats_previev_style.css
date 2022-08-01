@@ -3,7 +3,6 @@
 
 
 .container{
-
         /* flex
         background-color: hsl(233, 47%, 7%);
         margin: 0 auto;
@@ -13,29 +12,27 @@
         padding: 10%;
         border-radius:20px; 
         <--grid-->
-    background-color: hsl(233, 47%, 7%);
-    max-width: 1440px; 
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 50% 50% ;
-    grid-template-rows: 100px 75% 100px;
-    grid-template-areas:
-    'mtop mtop'
-    'textbox imagebox'
-    'mbottom mbottom'
-    */
+        background-color: hsl(233, 47%, 7%);
+        max-width: 1440px; 
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 50% 50% ;
+        grid-template-rows: 100px 75% 100px;
+        grid-template-areas:
+        'mtop mtop'
+        'textbox imagebox'
+        'mbottom mbottom'
+        */
 
-    /* make good flex :) */
+/* make good flex :) */
     background-color: hsl(233, 47%, 7%);
     overflow: hidden;
     border-radius: 15px;
     max-width: 1440px;
     margin: 2vh 10% 5vh;
-    /*margin: 0 auto;*/
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
-
 }
 /*
 .mtop{
