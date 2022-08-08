@@ -7,13 +7,24 @@
 }
 .container{
     width: 375px;
-    background-color: bisque;
     width: 80vw;
     padding: 0.5em;
     margin: 2vh auto 2vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75); 
+    font-size: 15px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+h1{
+    color: hsl(0, 0%, 95%); 
+    font-family: 'Big Shoulders Display', cursive;   
+}
+.box{
+    padding: 0.5em;
 }
 .box1{
     order: 1;
@@ -31,12 +42,11 @@
 @media screen and (max-width: 500px) {
     .container{
         max-width: 1440px;
-        background-color: lightblue;
         width: 80vw;
         padding: 0.5em;
         margin: 2vh auto 2vh;
         display: flex;
-    flex-direction: column;
-    justify-content: center;
+        flex-direction: column;
+        justify-content: center;
     }
 }

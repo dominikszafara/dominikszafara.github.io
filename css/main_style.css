@@ -5,7 +5,7 @@
 .main_navibar{
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(169, 169, 169));
     /*background: lightblue;*/
-    height: 15vh;
+    min-height: 5vh;
     width: 80vw;
     padding: 0.5em;
     margin: 2vh auto 2vh;
