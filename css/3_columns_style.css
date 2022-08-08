@@ -1,6 +1,42 @@
 .attribution {
-    font-size: 11px; text-align: center;
+    font-size: 11px;
+    text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+.container{
+    width: 375px;
+    background-color: bisque;
+    width: 80vw;
+    padding: 0.5em;
+    margin: 2vh auto 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box1{
+    order: 1;
+    background-color: hsl(31, 77%, 52%);
+}
+.box2{
+    order: 2; 
+    background-color: hsl(184, 100%, 22%);
+}
+.box3{
+    order: 3;
+    background-color: hsl(179, 100%, 13%);
+}
+/*mobile first*/
+@media screen and (max-width: 500px) {
+    .container{
+        max-width: 1440px;
+        background-color: lightblue;
+        width: 80vw;
+        padding: 0.5em;
+        margin: 2vh auto 2vh;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
 }

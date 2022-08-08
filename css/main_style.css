@@ -61,13 +61,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-@media(max-width:600px){
-    /*desktop first*/
-    
-}
-@media screen and (max-width: 1000px) { /* jeśli szerokość jest mniejsza od 400px  */
+}  
+/*mobile first*/
+@media screen and (max-width: 500px) { /* jeśli szerokość jest mniejsza od 400px  */
     body {
       background-color: lightgreen;
     }
