@@ -63,7 +63,7 @@
     /*desktop first*/
     
 }
-@media screen and (min-width: 400px) { /* jeśli szerokość jest większa od 400px  */
+@media screen and (max-width: 1000px) { /* jeśli szerokość jest mniejsza od 400px  */
     body {
       background-color: lightgreen;
     }
