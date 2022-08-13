@@ -57,8 +57,7 @@ h2{
     align-items: center;
     flex-wrap: wrap;
     color: hsla(0, 0%, 100%, 0.6);
-    padding: 20px;
-    
+    padding: 20px; 
 }
 .box{
     padding: 1%;
