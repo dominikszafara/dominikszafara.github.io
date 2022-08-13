@@ -18,6 +18,7 @@
 p{
     color: hsla(0, 0%, 100%, 0.75); 
     font-size: 15px;
+    line-height: 1.5;
     font-family: 'Big Shoulders Display', cursive;
 }
 h1{
