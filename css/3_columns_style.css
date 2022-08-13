@@ -68,9 +68,7 @@ h1{
     width: 250px;
     height: 400px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    
+    flex-direction: column;   
 }
 .imgbox{
     order: 1;
@@ -83,6 +81,7 @@ h1{
 }
 .buttonbox{
     order: 4;
+    margin-top: auto;
 }
 .box1{
     order: 1;
