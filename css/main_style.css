@@ -1,10 +1,16 @@
+body{
+    background-color: aliceblue;
+}
 .smallbody{
     background-color: black;
     padding: 5%;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .main_navibar{
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(169, 169, 169));
-    /*background: lightblue;*/
     min-height: 5vh;
     width: 80vw;
     padding: 0.5em;
@@ -13,37 +19,36 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 25px;
 }
 .navibutton{
     background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(169, 169, 169));
     text-align: center;
     border-radius: 15px;
-    border: none;
     text-decoration: none;
     color: azure;
     padding: 5px; 
     flex: 0 0 150px;
     align-self: center;
+    cursor: pointer;
+}
+.navibutton:hover{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(169, 169, 169));
 }
 .navi{
     margin: 0.5em;
-
 }
 .navi1{
-    order: 1;
-    
+    order: 1; 
 }
 .navi2{
-    order: 2;
-    
+    order: 2; 
 }
 .navi3{
-    order: 3;
-    
+    order: 3;   
 }
 .navi4{
-    order: 4;
-    
+    order: 4;  
 }
 .main_container{
     background: pink;
@@ -65,6 +70,6 @@
 /*desktop first*/
 @media screen and (max-width: 500px) { /* jeśli szerokość jest mniejsza od 400px  */
     body {
-      background-color: lightgreen;
+      background-color: aliceblue;
     }
   }
