@@ -75,7 +75,7 @@ h2{
     order: 3;
 }
 /*desktop first - mobile second*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 875px) {
     .container{
         
         max-width: 1440px;
