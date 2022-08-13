@@ -101,7 +101,7 @@ h1{
     border-radius: 0px 15px 15px 0px;
 }
 /*desktop first - mobile second*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .container{
         max-width: 1440px;
         width: 80vw;
