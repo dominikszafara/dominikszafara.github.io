@@ -24,11 +24,64 @@ h1{
     color: hsl(0, 0%, 95%); 
     font-family: 'Big Shoulders Display', cursive;   
 }
+.button{
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.button1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 25px;
+}
+.button2:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: aliceblue;  
+    border: 2px solid aliceblue;
+    border-radius: 25px;
+}
+.button3:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: aliceblue;  
+    border: 2px solid aliceblue;
+    border-radius: 25px;
+}
+.button1{
+    color: hsl(31, 77%, 52%);
+}
+.button2{
+    color: hsl(184, 100%, 22%);
+}
+.button3{
+    color: hsl(179, 100%, 13%);
+}
 .box{
     justify-self: center;
     padding: 45px;
     width: 250px;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgbox{
+    order: 1;
+}
+.titlebox{
+    order: 2;
+}
+.textbox{
+    order: 3;
+}
+.buttonbox{
+    order: 4;
 }
 .box1{
     order: 1;
