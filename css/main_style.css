@@ -68,8 +68,19 @@ a{
     align-items: center;
 }  
 /*desktop first*/
-@media screen and (max-width: 500px) { /* jeśli szerokość jest mniejsza od 400px  */
+/*
+@media screen and (max-width: 250px) { /* jeśli szerokość jest mniejsza od 400px  *//*
     body {
       background-color: aliceblue;
     }
+    .main_navibar{
+        background-color: aliceblue;
+    }
+    .navibutton{
+        background-color: darkgray;
+    }
+    .navibutton:hover{
+        background-color: darkgray;
+    }
   }
+  */
