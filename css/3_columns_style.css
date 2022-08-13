@@ -69,7 +69,8 @@ h1{
     height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 .imgbox{
     order: 1;
