@@ -35,6 +35,7 @@ img{
     text-align: left;
     color: hsl(0, 0%, 100%);
     padding: 20px;
+    font-family: 'Inter', cursive;
 }
 span{
     color:hsl(277, 64%, 61%);
@@ -47,6 +48,7 @@ h2{
     text-align: left;
     color: hsla(0, 0%, 100%, 0.75);
     padding: 20px;
+    font-family: 'Lexend Deca', cursive;
 }
 .statstextbox{
     order: 3;
@@ -57,7 +59,8 @@ h2{
     align-items: center;
     flex-wrap: wrap;
     color: hsla(0, 0%, 100%, 0.6);
-    padding: 20px; 
+    padding: 20px;
+    font-family: 'Inter', cursive;
 }
 .box{
     padding: 1%;
