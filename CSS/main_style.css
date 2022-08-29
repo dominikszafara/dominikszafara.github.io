@@ -1,28 +1,23 @@
 body {
     background: linear-gradient(90deg,#7bed9f, #3498db);
-  }
-  
-  section {
+}  
+header {
     max-width: 900px;
     margin: 0 auto;
-  }
-  
-  section h1 {
+} 
+header h1 {
     font-size: 46px;
-    text-align: center;
-  }
-  
-  section p {
+    text-align: left;
+} 
+header p {
     font-size: 26px;
-    text-align: center;
-  }
-  
+    text-align: left;
+} 
   /* hamburger */
-  .checkbox {
+.checkbox {
     display: none;
-  }
-  
-  .button {
+} 
+.button {
     position: relative;
     background-color: white;
     height: 5rem;
@@ -35,9 +30,8 @@ body {
     box-shadow: 0 1rem 3rem black;
     text-align: center; 
     cursor: pointer;
-  }
-  
-  .background {
+}
+.background {
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
@@ -48,9 +42,8 @@ body {
     z-index: 1000;
   
     transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
-  }
-  
-  .nav {
+} 
+.nav {
     height: 100vh;
     position: fixed;
     top: 0;
@@ -59,9 +52,8 @@ body {
     opacity: 0;
     width: 0;
     transition: all 0.8s;
-  }
-  
-  .list {
+} 
+.list {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -69,13 +61,11 @@ body {
     list-style: none;
     text-align: center;
     width: 100%;
-  }
-  
-  .item {
+} 
+.item {
     margin: 1rem;
     font-size: 36px;
-  }
-  
+}
   .link:link,
   .link:visited {
     display: inline-block;
@@ -93,51 +83,47 @@ body {
     );
     background-size: 220%;
     transition: all 0.4s;
-  }
-  
-  .link:hover,
+} 
+.link:hover,
   .link:active {
     color: lightgreen;
     cursor: pointer;
-  }
+}
   
   /* functionality */
-  .checkbox:checked ~ .background {
+.checkbox:checked ~ .background {
     transform: scale(80);
-  }
-  .checkbox:checked ~ .nav {
+}
+.checkbox:checked ~ .nav {
     opacity: 1;
     width: 100%;
     right: 0;
-  }
+}
   
   /*  */
   /* styling hamb ICON */
-  .icon {
+.icon {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  
-  .icon,
+} 
+.icon,
   .icon::before,
   .icon::after {
     width: 3rem;
     height: 2px;
     background-color: gray;
     display: inline-block;
-  }
-  
-  .icon::before,
+}  
+.icon::before,
   .icon::after {
     content: "";
     position: absolute;
     left: 0;
     transition: all 0.2s;
-  }
-  
-  .icon::before {
+} 
+.icon::before {
     top: -0.8rem;
   }
   .icon::after {
@@ -171,57 +157,6 @@ body {
 a{
     text-decoration: none;
     color: black;
-}
-h1{
-    text-align: center;
-}
-p{
-    text-align: center;
-}
-header{
-    background-color: rgba(194,194,194,255);
-    min-height: 50px;
-}
-.navigationbar{
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(169, 169, 169));
-    min-height: 5vh;
-    width: 80vw;
-    padding: 0.5em;
-    margin: 2vh auto 2vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 25px;
-}
-.navibutton{
-    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(169, 169, 169));
-    text-align: center;
-    border-radius: 15px;
-    text-decoration: none;
-    color: azure;
-    padding: 5px; 
-    flex: 0 0 150px;
-    align-self: center;
-    cursor: pointer;
-}
-.navibutton:hover{
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(169, 169, 169));
-}
-.navi{
-    margin: 0.5em;
-}
-.navi1{
-    order: 1; 
-}
-.navi2{
-    order: 2; 
-}
-.navi3{
-    order: 3;   
-}
-.navi4{
-    order: 4;  
 }
 .main_container{
     background: pink;
