@@ -159,16 +159,16 @@ a{
     text-decoration: none;
     color: black;
 }
-.main_container{
-    background: pink;
-    height: 15vh;
+.main{
+    
+    height: 50vh;
     width: 80vw;
-    padding: 0.5em;
+    padding: 0 auto;
     margin: 2vh auto 2vh;
 }
 .main_footer{
     background: orangered;
-    height: 15vh;
+    height: 5vh;
     width: 80vw;
     padding: 0.5em;
     margin: 2vh auto 2vh;
