@@ -9,7 +9,7 @@ a{
     text-decoration: none;
     color: black;
 }
-.main_navibar{
+.header{
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(169, 169, 169));
     min-height: 5vh;
     width: 80vw;
