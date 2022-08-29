@@ -9,8 +9,14 @@ a{
     text-decoration: none;
     color: black;
 }
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
 header{
-    background-color: bisque;
+    background-color: rgba(194,194,194,255);
     min-height: 50px;
 }
 .navigationbar{
