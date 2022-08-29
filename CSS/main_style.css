@@ -23,10 +23,10 @@ header p {
     background-color: white;
     height: 5rem;
     width: 5rem;
-    border-radius: 50%;
+    border-radius: 0 0 0 50%;
     position: fixed;
-    top: 2vh; 
-    right: 2vw; 
+    top: 0vh; 
+    right: 0vw; 
     z-index: 2000;
     box-shadow: 0 1rem 3rem black;
     text-align: center; 
@@ -35,11 +35,11 @@ header p {
 .background {
     height: 4rem;
     width: 4rem;
-    border-radius: 50%;
+    border-radius: 0 0 0 50%;
     position: fixed;
-    top: 2.5vh; 
-    right: 2.5vw; 
-    background-image: radial-gradient(green, black);
+    top: 0vh; 
+    right: 0vw; 
+    background-image: radial-gradient(#ffff00, #ee9f00);
     z-index: 1000;
   
     transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
@@ -73,7 +73,7 @@ header p {
     font-size: 3rem;
     font-weight: 300;
     padding: 1rem 2rem;
-    color: white;
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
     background-image: linear-gradient(
@@ -87,7 +87,7 @@ header p {
 } 
 .link:hover,
   .link:active {
-    color: lightgreen;
+    color: darkorange;
     cursor: pointer;
 }
   
