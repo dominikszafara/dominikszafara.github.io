@@ -1,99 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!--Displays site properly based on user's device--> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<!--Fonts-->
 
-<!--ID stuff-->
+<head>
+    <!--Displays site properly based on user's device-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonts-->
+
+    <!--ID stuff-->
     <title>Portfolio - Dominik Szafara</title>
-<!--Styles-->
+    <!--Styles-->
+    <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/main_style.css">
 </head>
+
 <body>
     <header>
         <h1>Hello! My name is Dominik</h1>
         <p>I`m interested in improving my programming skils and currently learning HTML/CSS/JavaScript.</p>
+
+
+        <!-- hamburger -->
+        <input type="checkbox" id="navi-toggle" class="checkbox" />
+        <label for="navi-toggle" class="button">
+            <span class="icon">&nbsp;</span>
+        </label>
+        <div class="background">&nbsp;</div>
+
+        <!-- nav -->
+        <nav class="nav">
+            <ul class="list">
+                <li class="item"> <a href="https://dominikszafara.github.io/index.html" class="link"> Main Site </a>
+                </li>
+                <li class="item"> <a href="https://dominikszafara.github.io/qr_code/index.html" class="link"> QR CODE
+                    </a> </li>
+                <li class="item"> <a href="https://dominikszafara.github.io/stats_previev/index.html" class="link">
+                        Stats Previev </a> </li>
+                <li class="item"> <a href="https://dominikszafara.github.io/three_columns/index.html" class="link"> 3
+                        Columns </a> </li>
+                <li class="item"> <a href="https://github.com/dominikszafara" class="link"> Github Profile </a> </li>
+            </ul>
+        </nav>
     </header>
-    
-      <!-- hamburger -->
-      <input type="checkbox" id="navi-toggle" class="checkbox" />
-      <label for="navi-toggle" class="button">
-        <span class="icon">&nbsp;</span>
-      </label>
-      <div class="background">&nbsp;</div>
-    
-      <!-- nav -->
-      <nav class="nav">
-        <ul class="list">
-          <li class="item"> <a href="https://dominikszafara.github.io/index.html" class="link"> Main Site </a> </li>
-          <li class="item"> <a href="https://dominikszafara.github.io/qr_code/index.html" class="link"> QR CODE </a> </li>
-          <li class="item"> <a href="https://dominikszafara.github.io/stats_previev/index.html" class="link"> Stats Previev </a> </li>
-          <li class="item"> <a href="https://dominikszafara.github.io/three_columns/index.html" class="link"> 3 Columns </a> </li>
-          <li class="item"> <a href="https://github.com/dominikszafara" class="link"> Github Profile </a> </li>
-        </ul>
-    </nav>
-<div class="main">
-    <p>You can see my projects by Click! on list below or use burger menu to watch it in a full size:</p>
-    <div class="container"> 
-        <div class="box">
-            <iframe src="https://dominikszafara.github.io/qr_code/index.html" frameborder="0"></iframe>
+    <main>
+        <p>You can see my projects by Click! on list below or use burger menu to watch it in a full size:</p>
+        <div class="container">
+            <div class="box">
+                <iframe src="https://dominikszafara.github.io/qr_code/index.html" frameborder="0"></iframe>
+            </div>
+            <div class="box">
+                <iframe src="https://dominikszafara.github.io/stats_previev/index.html" frameborder="0"></iframe>
+            </div>
+            <div class="box">
+                <iframe src="https://dominikszafara.github.io/three_columns/index.html" frameborder="0"></iframe>
+            </div>
+            <div class="box">
+                <div class="textbox">4</div>
+            </div>
+            <div class="box">
+                <div class="textbox">5</div>
+            </div>
+            <div class="box">
+                <div class="textbox">6</div>
+            </div>
+            <div class="box">
+                <div class="textbox">7</div>
+            </div>
+            <div class="box">
+                <div class="textbox">8</div>
+            </div>
+            <div class="box">
+                <div class="textbox">9</div>
+            </div>
+            <div class="box">
+                <div class="textbox">10</div>
+            </div>
         </div>
-        <div class="box">
-            <iframe src="https://dominikszafara.github.io/qr_code/index.html" frameborder="0"></iframe>
-        </div>
-        <div class="box">
-            <iframe src="https://dominikszafara.github.io/stats_previev/index.html" frameborder="0"></iframe>
-        </div>
-        <div class="box"><div class="textbox">4</div></div>
-        <div class="box"><div class="textbox">5</div></div>
-        <div class="box"><div class="textbox">6</div></div>
-        <div class="box"><div class="textbox">7</div></div>
-        <div class="box"><div class="textbox">8</div></div>
-        <div class="box"><div class="textbox">9</div></div>
-        <div class="box"><div class="textbox">10</div></div>
-    </div>
-    <ul>
-        <script>
-        function op(obj) {
-        x=document.getElementById(obj);
-        if(x.style.display == "none") x.style.display = "block";
-        else x.style.display = "none"
-        }
-        </script>
-        <a href="/" onClick="op('qr_code'); return false;"><li>ᐅ 1st challenge from FrondEndMentor </li></a>
-        <div id="qr_code" style="display:none">
-            <iframe src="https://dominikszafara.github.io/qr_code/index.html" frameborder="0"></iframe>
-        </div>
-        <script>
-            function op(obj) {
-            x=document.getElementById(obj);
-            if(x.style.display == "none") x.style.display = "block";
-            else x.style.display = "none"
-            }
-            </script>
-        <a href="/" onClick="op('stats_previev'); return false;"><li>ᐅ 2nd challenge from FrondEndMentor  </li></a>
-        <div id="stats_previev" style="display:none">
-            <iframe src="https://dominikszafara.github.io/stats_previev/index.html" frameborder="0"></iframe>
-        </div>
-        <script>
-            function op(obj) {
-            x=document.getElementById(obj);
-            if(x.style.display == "none") x.style.display = "block";
-            else x.style.display = "none"
-            }
-            </script>
-        <a href="/" onClick="op('three_columns'); return false;"><li>ᐅ 3rd challenge from FrondEndMentor  </li></a>
-        <div id="three_columns" style="display:none">
-            <iframe src="https://dominikszafara.github.io/three_columns/index.html" frameborder="0" ></iframe>
-        </div>
-    </ul>
 
-</div>
 
-<div class="main_footer">
-    <div>Portfolio draft by <a href="https://github.com/dominikszafara">dominikszafara</a></div>
-</div>
+    </main>
+
+    <footer>
+        <div>Portfolio draft by <a href="https://github.com/dominikszafara">dominikszafara</a></div>
+    </footer>
 </body>
+
 </html>
