@@ -193,9 +193,6 @@ iframe {
   transform: scale(0.33)translate(-450px, -750px);
 }
 
-iframe:hover {
-  transform: scale(0.33)translate(-440px, -740px);
-}
 
 .container {
   display: flex;
