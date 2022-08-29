@@ -1,9 +1,10 @@
 body {
-    background: linear-gradient(90deg,#7bed9f, #3498db);
+    background: linear-gradient(90deg,#ee9f00, #ffff00);
 }  
 header {
     max-width: 900px;
     margin: 0 auto;
+    margin-top: 50px;
 } 
 header h1 {
     font-size: 46px;
@@ -24,8 +25,8 @@ header p {
     width: 5rem;
     border-radius: 50%;
     position: fixed;
-    top: 5vh; 
-    right: 5vw; 
+    top: 2vh; 
+    right: 2vw; 
     z-index: 2000;
     box-shadow: 0 1rem 3rem black;
     text-align: center; 
@@ -36,8 +37,8 @@ header p {
     width: 4rem;
     border-radius: 50%;
     position: fixed;
-    top: 5.5vh; 
-    right: 5.5vw; 
+    top: 2.5vh; 
+    right: 2.5vw; 
     background-image: radial-gradient(green, black);
     z-index: 1000;
   
