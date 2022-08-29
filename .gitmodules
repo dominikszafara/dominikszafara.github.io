@@ -4,3 +4,6 @@
 [submodule "stats_previev"]
 	path = stats_previev
 	url = https://github.com/dominikszafara/stats_previev.git
+[submodule "three_columns"]
+	path = three_columns
+	url = https://github.com/dominikszafara/three_columns.git
