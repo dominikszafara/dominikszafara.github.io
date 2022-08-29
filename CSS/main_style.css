@@ -2,9 +2,9 @@ body {
     background: linear-gradient(90deg,#ee9f00, #ffff00);
 }  
 header {
-    max-width: 900px;
+    width: 80vw;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 7vh;
 } 
 header h1 {
     font-size: 46px;
@@ -162,20 +162,21 @@ a{
 .main{
     height: 50vh;
     width: 80vw;
-    margin:  0 auto ;
+    margin:  0 auto;
+    padding: 15px;
 }
 .main_footer{
-    justify-self: end;
     height: 5vh;
     width: 80vw;
     padding: 0.5em;
-    margin: 2vh auto 2vh;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 ul {
-  list-style-type: none; 
+  list-style-type: none;
+  text-align: left; 
 }
 .qr_code{
   align-self: center;
@@ -185,6 +186,11 @@ ul {
 }
 .three_columns{
   align-self: center;
+}
+iframe{
+  width: 100%;
+  height: 75vh;
+  
 }
 /*desktop first*/
 /*
