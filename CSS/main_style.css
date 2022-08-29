@@ -9,7 +9,11 @@ a{
     text-decoration: none;
     color: black;
 }
-.header{
+header{
+    background-color: bisque;
+    min-height: 50px;
+}
+.navigationbar{
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(169, 169, 169));
     min-height: 5vh;
     width: 80vw;
