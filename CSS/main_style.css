@@ -160,14 +160,12 @@ a{
     color: black;
 }
 .main{
-    
     height: 50vh;
     width: 80vw;
-    padding: 0 auto;
-    margin: 2vh auto 2vh;
+    margin:  0 auto ;
 }
 .main_footer{
-    background: orangered;
+    justify-self: end;
     height: 5vh;
     width: 80vw;
     padding: 0.5em;
@@ -175,7 +173,19 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-}  
+}
+ul {
+  list-style-type: none; 
+}
+.qr_code{
+  align-self: center;
+}
+.stats_previev{
+  align-self: center;
+}
+.three_columns{
+  align-self: center;
+}
 /*desktop first*/
 /*
 @media screen and (max-width: 250px) { /* jeśli szerokość jest mniejsza od 400px  *//*
