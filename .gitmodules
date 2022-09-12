@@ -7,3 +7,6 @@
 [submodule "three_columns"]
 	path = three_columns
 	url = https://github.com/dominikszafara/three_columns.git
+[submodule "comming_soon_page"]
+	path = comming_soon_page
+	url = https://github.com/dominikszafara/comming_soon_page.git
