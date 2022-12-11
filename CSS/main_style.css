@@ -194,10 +194,11 @@ iframe {
 
 }
 
-iframe:hover {
+/*iframe:hover {
   transform: scale(1);
-}
 
+}
+*/
 .container {
   display: flex;
   flex-direction: row;
@@ -212,6 +213,7 @@ iframe:hover {
   margin: 10px;
   padding: 5px;
 }
+
 
 .textbox {
   font-size: 25px;
