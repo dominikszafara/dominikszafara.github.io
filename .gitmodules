@@ -13,3 +13,6 @@
 [submodule "Skalar_webpage"]
 	path = Skalar_webpage
 	url = https://github.com/dominikszafara/Skalar_webpage.git
+[submodule "skalar_webpage"]
+	path = skalar_webpage
+	url = https://github.com/dominikszafara/skalar_webpage.git
